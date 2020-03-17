@@ -1,0 +1,67 @@
+/*Aprendendo CSS externo*/
+body{
+	/*
+	background-image: url(imagem/fundo2.jpg);
+	background-repeat:no-repeat;/*tira repetição, para repetir 
+	verticalmente usar repeat-y, e para repetir horizontalmente,
+	usar repeat-x;*/
+	/*background-size: cover;*/
+}
+/*Para personalisar um elemento html com um identificador é necessário 
+por a #, senão o CSS busca uma tag com o nome*/
+#paragrafos{
+	color:red;
+	/*background-color:#00ffff;*//*Cor sólida de background*/
+	background-image: url(imagem/fundo2.jpg); /*Fundo com imagem
+	apenas nesse item*/
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-attachment: fixed;/*Back ground nao rola com a page*/
+}
+#titulo{
+	color:blue;
+}
+/*Para personalisar uma classe é necessário por o ponto antes do nome da 
+classe, a diferença entre classe e id, é que uma classe permite personalizar
+mais de um elemento*/
+.texto_verde{
+	color:green;
+}
+#cm{
+	background-color: blue;
+	width:1cm;
+	height: 1cm;
+}
+#mm{
+	background-color: red;
+	width:1mm;
+	height: 1mm;
+}
+#in{
+	background-color: blue;
+	width:1in;
+	height: 1in;
+}
+#px{
+	background-color: red;
+	width:10px;
+	height: 10px;
+}
+#pt{
+	background-color: blue;
+	width:10pt;
+	height: 10pt;	
+}
+#pc{
+	background-color: red;
+	width:1pc;
+	height:1pc;	
+}
+#container{
+	background-color:blue;
+	color:white;
+	margin:10px; /*Pode ser feito um margin de qualquer lado, top, botton
+	left, right; espaço para fora*/
+	padding:10px;/*Pode ser feito um padding em qualquer lado, top botton, 
+	left, right; Espaço para dentro*/
+}

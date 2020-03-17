@@ -1,0 +1,18 @@
+.borda{
+	border-width:5px;
+	border-style: solid;
+	border-color:red;
+	border-radius: 5px;
+
+}
+.quadrado{
+	width:100px;
+	height: 100px;
+	background-color: yellow;
+}
+.bolsa{
+	background-size:100%;
+	border-width:5px;
+	border-style: solid;
+	border-color:yellow;
+}

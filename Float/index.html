@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Float</title>
+    <meta charset="utf-8">
+
+    <style type="text/css">
+        body {
+            font-size: 1.2rem;
+        }
+
+        #i1 {
+            width: 200px;
+            /*Vai ficar flutuando ao lado esquerdo, ou direito, do próximo elemento*/
+            float: left;
+        }
+
+        /*
+        #i2 {
+            width: 200px;
+            float: right;
+        }
+        */
+        p {
+            /*Nenhum elemento flutuando á esquerda*/
+            /*clear: left;*/
+            /*Nenhum elemento flutuando em ambos os lados*/
+            /*clear: both;*/
+            clear: none;
+        }
+
+        div {
+            border: 1px solid black;
+            overflow: auto;
+        }
+
+        li {
+            float: left;
+            list-style: none;
+            padding: 10px;
+            background-color: darkmagenta;
+            margin: 5px;
+            
+        }
+    </style>
+</head>
+
+<body>
+
+    <img id="i1" src="https://defensoresdosanimais.files.wordpress.com/2011/06/cc3a3o-filhote.jpg">
+    <!-- <img id="i2" src="https://defensoresdosanimais.files.wordpress.com/2011/06/cc3a3o-filhote.jpg"> -->
+    <p>
+        Texto Qualquer Texto Qualquer Texto Qualquer Texto Qualquer Texto Qualquer Texto Qualquer Texto
+        Texto Qualquer Texto Qualquer Texto Qualquer Texto Qualquer Texto Qualquer Texto Qualquer Texto
+        Texto Qualquer Texto Qualquer Texto Qualquer Texto Qualquer Texto Qualquer Texto Qualquer Texto
+        Texto Qualquer Texto Qualquer Texto Qualquer Texto Qualquer Texto Qualquer Texto Qualquer Texto
+        Texto Qualquer Texto Qualquer Texto Qualquer Texto Qualquer Texto Qualquer Texto Qualquer Texto
+        Texto Qualquer Texto Qualquer Texto Qualquer Texto Qualquer Texto Qualquer Texto Qualquer Texto
+        Texto Qualquer Texto Qualquer Texto Qualquer Texto Qualquer Texto Qualquer Texto Qualquer Texto
+        Texto Qualquer Texto Qualquer Texto Qualquer Texto Qualquer Texto Qualquer Texto Qualquer Texto
+        Texto Qualquer Texto Qualquer Texto Qualquer Texto Qualquer Texto Qualquer Texto Qualquer Texto
+        Texto Qualquer Texto Qualquer Texto Qualquer Texto Qualquer Texto Qualquer Texto Qualquer Texto
+        Texto Qualquer Texto Qualquer Texto Qualquer Texto Qualquer Texto Qualquer Texto Qualquer Texto
+        Texto Qualquer Texto Qualquer Texto Qualquer Texto Qualquer Texto Qualquer Texto Qualquer Texto
+        Texto Qualquer Texto Qualquer Texto Qualquer Texto Qualquer Texto Qualquer Texto Qualquer Texto
+    </p>
+
+    <div>
+        <img id="i1" src="https://defensoresdosanimais.files.wordpress.com/2011/06/cc3a3o-filhote.jpg">
+        <p>
+            FODA FODA FODA FODA FODA FODA FODA FODA FODA FODA FODA FODA FODA FODA FODA FODA FODA FODA FODA
+            FODA FODA FODA FODA FODA FODA FODA FODA FODA FODA FODA FODA FODA FODA FODA FODA FODA FODA FODA
+            FODA FODA FODA FODA FODA FODA FODA FODA FODA FODA FODA FODA FODA FODA FODA FODA FODA FODA FODA
+        </p>
+    </div>
+
+    <ul>
+        <li>Home</li>
+        <li>Cursos</li>
+        <li>Contato</li>
+    </ul>
+
+</body>
+
+</html>

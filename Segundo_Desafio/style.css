@@ -1,0 +1,17 @@
+
+#Medias_fundo{
+    background-image: url("images/backgorund.png");
+    background-size:cover;
+    height: 200px;
+    width: 400px;
+    
+    
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+ul{
+    list-style-type: none;
+    position: relative;
+} 

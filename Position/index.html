@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Position</title>
+    <meta charset="utf-8">
+
+    <style type="text/css">
+        body {
+            font-size: 1.2rem;
+        }
+
+        .quadrado {
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+
+        }
+
+        .ret {
+            width: 100px;
+            height: 500px;
+            margin-top: 10px;
+        }
+
+        .bg-red {
+            background-color: red;
+        }
+
+        .bg-blue {
+            background-color: blue;
+        }
+
+        .bg-green {
+            background-color: green;
+        }
+
+        .static {
+            position: static;
+        }
+
+        .relative {
+            position: relative;
+
+        }
+
+        .fixed {
+            position: fixed;
+            left: 20px;
+        }
+
+        .absolute {
+            position: absolute;
+            top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="static quadrado bg-blue">
+
+    </div>
+
+    <div class="relative ret bg-blue">
+        <div class="static quadrado bg-red">
+            <!--Relative pode receber outras propriedades, como por exemplo Right, Top, Left, Bottom
+        caso não tenha nenhuma propriedade, o elemento ficará posicionado igual ao static-->
+            <!-- Fixed é similar ao relative, mas é em relação á janela do navegador-->
+            <!-- Absolute é em relação ao elemento PAI-->
+        </div>
+        <div class="absolute quadrado bg-green">
+        </div>
+    </div>
+</body>
+
+</html>

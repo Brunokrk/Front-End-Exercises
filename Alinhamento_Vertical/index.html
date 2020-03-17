@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Alinhamento Vertical</title>
+    <meta charset="utf-8">
+
+    <style type="text/css">
+        body {
+            font-size: 1.2rem;
+        }
+
+        .card {
+            float: left;
+            width: 400px;
+            height: 200px;
+            border: 2px solid greenyellow;
+            text-align: center;
+            position: relative;
+        }
+
+        .card2 {
+            clear: left;
+            float: left;
+            border: 2px solid greenyellow;
+            padding-left: 150px;
+            padding-right: 150px;
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+
+        .c1 {
+            background-color: burlywood;
+            line-height: 200px;
+        }
+
+        .c2 {
+            background-color: cadetblue;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="card">
+        <div class="c1">
+            Bruno Marchi
+        </div>
+    </div>
+    <div class="card">
+        <div class="c2">
+            Bruno Marchi
+        </div>
+    </div>
+
+    <div class="card2">
+        <div>
+            Bruno Marchi
+        </div>
+    </div>
+
+</body>
+
+</html>

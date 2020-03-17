@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Overflow</title>
+    <meta charset="utf-8">
+    <style type="text/css">
+        body {
+            font-size: 1.2rem;
+
+        }
+
+        #container {
+            color: yellow;
+            background-color: blue;
+            width: 300px;
+            height: 100px;
+
+            /*overflow: visible;*/
+            /*Todo conteúdo fora do container fica Visível*/
+
+            /*overflow: hidden;*/
+            /* O conteúdo fora do container fica invisível*/
+
+            /*overflow: scroll;*/
+            /*Aparece as bordas de rolagem para mostrar todo o conteúdo*/
+
+            /*overflow: auto;*/
+            /*Coloca a barra de rolagem apenas onde é necessário*/
+            overflow: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <img
+            src="https://portaldozacarias.com.br/site/arquivos/imagens/noticias/2017/08/grande/20170808084958cachorro_600x300.jpg">
+    </div>
+</body>
+
+</html>

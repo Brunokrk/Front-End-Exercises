@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Display</title>
+    <meta charset="utf-8">
+
+    <style type="text/css">
+        body {
+            font-size: 1.2 rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div>Esta é uma DIV normal</div>
+        <div> E aqui a história <div style="background-color: red; width: 500px;"> DIV de dentro</div>continua</div>
+    </div>
+
+    <div>
+        <p>Este é um parágrafo normal</p>
+        <p>E aqui a história continua</p>
+    </div>
+    <p>
+        Aqui eu tenho o inicio de um paragrafo <span style="background-color: green; width: 500px; 
+        display: inline-block;">um SPAN no
+            meio</span> E o fim do
+        paragrafo.
+        <!-- display: inline-block; Permite que o elemento permaneça na mesma linha, e 
+        também permite que a altura e largura seja editável-->
+    </p>
+
+    <p>
+        Aqui eu tenho o inicio de um paragrafo <div>Uma DIV no meio</div> E o fim do parágrafo
+    </p>
+    <!--Nunca podemos ter uma Div dentro de um parágrafo 
+        e nem um parágrafo dentro de outro parágrafo-->
+
+    <p>
+        Aqui eu tenho o inicio de um paragrafo <img src="https://img.olx.com.br/images/41/416925000081541.jpg"
+            style="width: 300px; display: none">
+        E o fim do paragrafo
+        <!-- Display: none; faz com que a imagem não exista no layout, como se nunca tivesse 
+        sido implementada-->
+    </p>
+
+</body>
+
+</html>

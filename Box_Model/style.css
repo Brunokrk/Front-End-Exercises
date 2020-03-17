@@ -1,0 +1,23 @@
+body{
+	margin:0;
+	padding:0;
+} /*tirou padding e margin padrão da página*/
+.container{
+	background-color: red;
+	padding: 5px;
+	border: 5px solid blue;
+	margin: 5px;
+}
+.content{
+	background-color: #ddd;
+	border: 5px solid green;
+	padding: 5px;
+}
+.quadrado{
+	width:100px;
+	height: 100px;
+	background-color: yellow;
+	border:10px solid blue;
+
+	box-sizing: border-box; /*Para não sair do limite de 100 px */
+}

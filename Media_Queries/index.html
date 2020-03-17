@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Media Queries</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            overflow: hidden;
+            margin: auto;
+            width: 80%;
+            background: #5C57A4;
+            padding: 15px;
+            font-size: 18px;
+        }
+
+        .menu {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            float: right;
+        }
+
+        li {
+            float: left;
+            color: white;
+            margin-left: 15px;
+        }
+
+        .logo {
+            float: left;
+            color: white;
+        }
+
+        @media screen and (max-width: 500px) {
+
+            /*Serve para quando a tela tiver no máximo 400 px*/
+            .logo {
+                float: none;
+                text-align: center;
+            }
+
+            .menu {
+                margin-top: 20px;
+                float: none;
+                text-align: center;
+            }
+
+            li {
+                float: none;
+                margin-bottom: 5px;
+                padding: 10px;
+                margin-left: 0px;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            Logo
+        </div>
+
+        <ul class="menu">
+            <li>Home</li>
+            <li>Cursos</li>
+            <li>Contato</li>
+            <li>Escritórios</li>
+        </ul>
+    </div>
+
+
+</body>
+
+</html>

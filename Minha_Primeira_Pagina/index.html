@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Minha Primeira Página</title>
+		<meta charset="utf-8">
+		<!--CSS INTERNO -->
+		<!--<style> 
+			p{ /*Vai pintar todos os Parágrafos de Vermelho*/
+				color:red;
+			}
+		</style>-->
+		<link href="style.css" rel="stylesheet"> <!-- Link para o CSS EXTERNO-->
+	</head>
+
+	<body>
+		<a href="#sorvetes">Sorvetes</a> <!--Link com id para rolar a pagina até algum elemento -->
+		<!--id = Identificador para personalisar apenas um elemento html no css externo -->
+		<h1 id="titulo">Titulo 1</h1><!--Quanto menor o número, maior a importância-->
+		<h2>Subtítulo</h2>
+		<!-- CSS inline style..., mudando a cor do parágrafo 
+		<p style="color: red;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+		--->
+		<div id="paragrafos"><!--div serve para juntar elementos e editar como uma coisa só -->
+			<p id="principal">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+			<p class="texto_verde"><b>Este é um texto em negrito!</b></p>
+			<p class="texto_verde"><strong>Texto em negrito com mais importancia</strong></p>
+			<p class="texto_verde"><i>Texto em itálico</i></p>
+			<p><em>Texto em itálico com mais importancia</em></p>
+			<p>Este é um texto com a <small>tag small</small></p>
+			<p>Este é um texto subscrito <sub> Texto subscrito</sub></p>
+			<p>Este é um texto com <sup>superscript</sup></p>
+		</div>
+
+		<a href="sobre.html">sobre ProgramadorBr</a> <!--Tag de link para outras páginas -->
+		
+		<br>
+
+		<img src="https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2018/04/25/sorvete-de-gelatina.jpg" alt="Sorvete de morango"width=300> <!-- "alt" auxilia o google a saber do que se trata a imagem, assim como auxilia na interação com pessoas deficientes-->
+
+		<br>
+		<br>
+
+		<a href="https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2018/04/25/sorvete-de-gelatina.jpg">
+		<img id="sorvetes" src="imagem/sorvetes.jpg"alt="sorvetes"width = 300>
+		</a>
+
+		<h2>Lista de Compras</h2>
+		<ul> 	<!--Lista Desordenada --->
+			<li>Item 1</li>
+			<li>Item 2</li> <!-- List Item-->
+			<li>Item 3</li>
+		</ul>
+
+		<h2>Lista dos Melhores vendedores</h2>
+		<ol>  <!--Lista Ordenada -->
+			<li>Marcela</li>
+			<li>João</li>
+			<li>Marcos</li>
+		</ol>
+		<table>
+			<tr> <!-- Table roll -->
+				<th>Nome</th> <!-- Table head-->
+				<th>Telefone</th>
+				<th>E-mail</th>
+			</tr>
+			<tr>
+				<td>Igor Oliveira</td> <!-- table data-->
+				<td>99999999999</td>
+				<td>hauhau@outlook.com</td>
+			</tr>
+			<tr>
+				<td>Bruno Pires</td>
+				<td>48999031154</td>
+				<td>piresbrcomercial@gmail.com</td>
+			</tr>
+		</table>
+
+		<div id="cm"></div>
+		<div id="mm"></div>
+		<div id="in"></div>
+		<div id="px"></div>
+		<div id="pt"></div>
+		<div id="pc"></div>
+		
+		<div id="base"></div>
+		<div id="container">
+			<div id="conteudo">
+				Texto  Qualquer
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	</body>
+</html>
