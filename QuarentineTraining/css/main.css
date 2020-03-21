@@ -11,7 +11,7 @@ ul{
     background-color: #252323;
     height: 60px;
 }
-main{
+main, .content{
     margin: 0 auto;
     width: 980px;
     position: relative;
@@ -145,4 +145,20 @@ button.slick-next{
 }
 li.slick-active button{
     background: #00bac6;
+}
+.content h1{
+    font-size: 30px;
+    font-family: "OpenSans";
+    color: #818181;
+    text-transform: uppercase;
+    line-height: 0.667;
+    text-align: center;
+}
+.content h1 strong{
+    color: #474646;
+}
+.content p{
+    color: #9a9a9a;
+    text-align: center;
+    font-size: 15px;
 }
