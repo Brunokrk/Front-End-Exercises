@@ -146,19 +146,33 @@ button.slick-next{
 li.slick-active button{
     background: #00bac6;
 }
-.content h1{
-    font-size: 30px;
-    font-family: "OpenSans";
-    color: #818181;
+.texto-destaque {
+    text-align: center;
+}
+.texto-destaque strong {
+    color: #646464;
+}
+.texto-destaque h1 {
     text-transform: uppercase;
-    line-height: 0.667;
-    text-align: center;
+    font-size: 30px;
+    color: #818181;
 }
-.content h1 strong{
-    color: #474646;
-}
-.content p{
-    color: #9a9a9a;
-    text-align: center;
+.texto-destaque p {
     font-size: 15px;
+    color: #9a9a9a;
+}
+
+.col-3 {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px; 
+    width: 29%;
+    float: left;
+    position: relative;
+}
+.bloco-texto{
+    margin-top:3em;
+}
+h3{
+    font-weight: normal !important;
 }
