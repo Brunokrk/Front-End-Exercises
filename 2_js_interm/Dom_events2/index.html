@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom events aula 2</title>
+    <script>
+        function onOver(elemento){
+            elemento.style.backgroundColor = "red";
+        }
+        function onOut(elemento){
+            elemento.style.backgroundColor= "cornflowerblue"
+        }
+    </script>
+    <style>
+        img{
+            width: 200px;
+            margin-bottom: 25px;
+        }
+        div{
+            display:inline;
+            padding: 5px;
+            font-size: 2rem;
+            background-color: cornflowerblue;
+            
+        }
+    </style>
+</head>
+<body onload="console.log('Página completamente carregada')">
+    <img src="./images/Marca_dagua_Transparente.png">
+    <br>
+    <div onmouseover="onOver(this)"
+    onmouseout="onOut(this)">Click</div>
+
+</body>
+</html>
