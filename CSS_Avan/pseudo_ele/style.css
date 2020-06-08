@@ -1,0 +1,34 @@
+/*Pseudo elementos são alguns comando que permitem modificar o estilo de apenas uma parte dos elementos*/
+
+p::first-line{
+    /* "first-line":Define estilo apenas na primeira linha do elemento que estamos pegando */
+    /* "first-letter": define estilo apenas da primeira letra */
+    color: red;
+} 
+
+
+li{
+    list-style: none;
+}
+
+li::before{
+    /* "before": Permite colocar um conteúdo antes do elemento */
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url("./Logo_sem_fundo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+p::selection {
+    /* Estilo ao selecionar um texto com o mouse */
+    background-color: yellow;
+    color: tomato;
+
+}
+
+
+
