@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css"  />
+    <title>Sorteio</title>
+    
+</head>
+
+<body>
+    <header>
+        <h1>Página de Sorteios</h1>
+    </header>
+    <div class="entradas" id="entradas">
+        <h3>Sortear no intervalo</h3>
+        <p>
+            <input type="number" name="minimo" id="minimo"> até
+            <input type="number" name="maximo" id="maximo">
+        </p>
+        <button onclick="sorteio()">Sortear</button>
+    </div>
+    <h2 id="resultado"></h2>
+    <script src="script.js"></script>
+</body>
+</html>
