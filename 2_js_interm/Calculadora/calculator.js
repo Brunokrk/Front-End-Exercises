@@ -1,7 +1,15 @@
-Calculator = function(...args){
+/* var valor;
+function calc(){
+    //=
+    valor = document.
 
 }
 
-Calculator.prototype = {
-    
+function reset(){
+    //AC
 }
+
+function item(num){
+    //demais botões
+
+} */
