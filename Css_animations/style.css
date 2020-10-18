@@ -1,0 +1,43 @@
+@keyframes changeColor{
+
+    0%{background-color: red; width: 200px;}
+    25%{background-color: green;}
+    50%{background-color: yellow; width: 400px;}
+    75%{background-color: orange;}
+    100% {background-color: blue; width: 200px;}
+}
+
+@keyframes move{
+    0%{left: 0%;}
+    100%{left: 300px;}
+}
+.box{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    animation-name: changeColor;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+/*     animation-delay: 0s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+    animation-fill-mode: forwards; /*quando termina a animação, trava no ultimo pixel*/ 
+}
+
+.div1{
+    animation-timing-function: linear;
+    /*Mesma velocidade sempre até parar*/
+}
+.div2{
+    animation-timing-function: ease;
+}
+.div3{
+    animation-timing-function: ease-in;
+}
+.div4{
+    animation-timing-function: ease-out;
+}
+.div5{
+    animation-timing-function: ease-in-out;
+}
