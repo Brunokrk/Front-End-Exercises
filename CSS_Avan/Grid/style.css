@@ -4,9 +4,11 @@
     padding: 10px;
     background-color: gray;
     grid-template: auto auto / auto auto auto;
-     justify-items: center ;
-    align-items: stretch;
+    justify-items: center ;
+    align-items: center;
+
     grid-gap:10px;
+    justify-content: space-around;
 }
 .r1{
     background-color: red;
@@ -21,6 +23,7 @@
 
 .rect{
     width:100px;
+    height:100px;
     
 }
     
