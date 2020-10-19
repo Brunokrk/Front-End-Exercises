@@ -52,7 +52,28 @@
                 
             }
         }
+        /* Operadores */
 
+        var sexo = 'M', idade = 23
+
+        if(sexo === "M"){
+            /* == === != !== && || */
+            console.log("ok")
+        }else{
+            console.log("false")
+        }
+
+        /*Condição ternária  */
+        var retorno =  (sexo === "M") ? 'Masculino' : 'Feminino';
+        console.log(retorno)
+
+        /* Intervalo time out */
+
+        function exibeAlgo(){
+            console.log("Hello World");
+        }
+        //setInterval(exibeAlgo, 1000);
+        setTimeout(exibeAlgo, 1000);
     </script>
 </body>
 </html>
