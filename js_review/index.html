@@ -7,6 +7,7 @@
 </head>
 <body>
     <script>
+        /* variáveis */
         var nome = "Diego";
         var idade = 23;
         var peso = 80.9;
@@ -18,8 +19,40 @@
             peso:80.5,
             humano: true
         };
-
         console.log(alunos);
+
+        /* funçoes */
+        function soma(numero1, numero2){
+            var resultado = numero1 + numero2;
+            return resultado;
+        }
+
+        var resultado = soma(1,2)
+        console.log(resultado)
+
+        /* condicionais */
+        function retornaSexo(sexo){
+            //M,F
+            //Masculino, Feminino
+            /* if (sexo === "M"){
+                return "Masculino";
+            }else if(sexo ==="F"){
+                return "Feminino";
+            }else{
+                return "Outro";
+            } */
+
+            switch(sexo){
+                case"M":
+                    return "Masculino"
+                case "F":
+                    return "Feminino"
+                default:
+                    return "Outro"
+                
+            }
+        }
+
     </script>
 </body>
 </html>
