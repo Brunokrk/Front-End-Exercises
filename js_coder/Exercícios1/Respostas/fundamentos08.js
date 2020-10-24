@@ -15,6 +15,7 @@ function avaliaPontuacoes (stringPontuacoes) {
         }else if (pontuacoes[i] < menorPontuacao) {
             menorPontuacao = pontuacoes[i]
             piorJogo = i+1;
+            console.log(piorJogo)
         }
     }
     return [qtdQuebraDeRecords, piorJogo]
